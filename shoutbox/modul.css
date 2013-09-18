@@ -1,0 +1,181 @@
+/* - ALLGEMEIN - */
+
+
+#content #text p {
+	margin:0;
+}
+
+#text a.button {
+	padding:5px 12px;
+}
+
+#text a.button:hover {
+	padding:5px 12px;
+	text-decoration:none !important;
+	color:#fff !important; 
+}
+
+#text .box.fehler {
+	background:#FEE1E1 url(../../../admin/data/images/hidden.png) no-repeat 10px;
+	padding: 2px 15px 2px 35px;
+	width:435px;
+	margin-top:10px;
+	border: 1px solid #E5E3E1;
+}
+
+table#shouts {
+	border: 1px solid #E5E3E1;
+	border-spacing:1px;
+}
+
+table#shouts td {
+	padding:2px;
+	border: 1px solid #E5E3E1;
+	white-space:nowrap;
+}
+
+table#shouts th{
+	text-align:center;
+}
+
+table#shouts .formular {
+	margin:0;
+	width:270px;
+	height:15px;
+}
+
+/* - SHOUTBOX - */
+
+
+#shoutbox {
+	text-align:left;
+	width:650px;
+	border:1px solid #E0E0E0;
+	font-family:"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	font-size:10px;
+}
+
+#shoutbox .smilie {
+	margin: -5px 4px;
+	border: 0px;
+}
+
+#shoutbox #FAQBox {
+	padding:5px;
+	height:190px;
+}
+
+#shoutbox #FAQTable {
+	border: 1px solid #E0E0E0;
+	width:100%;
+}
+
+#shoutbox #FAQTable th {
+	text-align:center;
+}
+
+#shoutbox #FAQTable th ,#shoutbox #FAQTable td {
+	padding:5px;
+	line-height:10px;
+}
+
+#shoutbox  #smilieBox {
+	height:115px;
+	border:1px solid #E0E0E0;
+	background: #fff;
+	margin-top:-200px;
+	margin-left:516px;
+	position:absolute;
+}
+
+#shoutbox #smilieBox.aktiv, #shoutbox  #FAQBox.aktiv, #shoutbox  #smilieBox.aktiv { 
+	display:block;
+}
+
+#shoutbox #smilieBox.inaktiv, #shoutbox #FAQBox.inaktiv, #shoutbox #shoutboxShouts.inaktiv {
+	display:none;
+}
+
+#shoutbox .aktiv {
+	display:block;
+}
+
+#shoutbox .inaktiv {
+	display:none;
+}
+
+
+#shoutbox form {
+	border:1px solid #fff;
+	background:#F0F0F0;
+}
+
+#shoutbox input {
+	background:#fff;
+	border:1px solid #E0E0E0;
+	color:#595959;
+	font-size:12px;
+	font-weight:bold;
+	margin:2px;
+	overflow:hidden;
+	padding:2px;
+}
+
+#shoutbox input#shoutboxShowFAQ {
+	position:absolute;
+	z-index:2;
+}
+
+#shoutbox input#shoutboxSmilies{
+	background:url(./img/smilies.gif) no-repeat 2px 2px #fff;
+	width:23px; 
+	position: absolute;
+	margin-left:46px;
+}
+
+#shoutbox input.aktiv {
+	display:inline;
+	border-bottom: 5px solid  #fff;
+	z-index: 2;
+}
+
+#shoutbox input.inaktiv {
+	display:inline;
+	border-bottom: solid 1px #E0E0E0;
+}
+
+#shoutbox p {
+	line-height: 20px;
+	margin:0;
+	padding: 4px 3px;
+}
+
+#shoutbox p a{
+	text-decoration:none;
+	color:#3C6787;
+}
+
+#shoutbox #shoutboxShouts {
+	height:200px;
+	overflow:auto;
+}
+
+#shoutbox .time {
+	color:#57576B;
+}
+
+#shoutbox .editShout {
+	font-size:10px;
+	font-weight:normal;
+}
+
+#shoutbox .ungerade {
+	background:#efefef;
+}
+
+/* Ladegrafik */
+#shoutbox #load {
+	position: absolute;
+	margin-top: -222px;
+	margin-left: 631px;
+}
