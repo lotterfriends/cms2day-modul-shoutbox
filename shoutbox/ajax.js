@@ -1,5 +1,5 @@
 /*
-* (C) Andr� Tarnowsky - lotterfriends.net
+* (C) André Tarnowsky - lotterfriends.net
 * Möglicher Aufruf
 * - sendeAnfrage("get","datei.json",function (r) {}); 
 * - sendeAnfrage("POST","ServletZwei",function (r) {alert(r)}),"text="+this.innerHTML);
