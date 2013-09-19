@@ -5,7 +5,7 @@
 MODUL -> SHOUTBOX -> INFORMATIONEN
 
 Version 1.0
-(c) 2009 by Andr� Tarnowsy
+(c) 2009 by André Tarnowsy
 http://www.lotterfriends.net
 
 */
