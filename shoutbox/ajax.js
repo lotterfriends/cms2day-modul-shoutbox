@@ -1,13 +1,11 @@
 /*
-* (C) André Tarnowsky - lotterfriends.net
-* Lizens: http://creativecommons.org/licenses/by/3.0/de/
-*
-* Möglicher Aufruf
+* (C) Andrï¿½ Tarnowsky - lotterfriends.net
+* MÃ¶glicher Aufruf
 * - sendeAnfrage("get","datei.json",function (r) {}); 
 * - sendeAnfrage("POST","ServletZwei",function (r) {alert(r)}),"text="+this.innerHTML);
 * @param String "get oder post"
 * @param String "Datei die Angefragt wird"
-* @param function "JS Function die die Rückgabe verarbeiten soll bekommt die Rückgabe"
+* @param function "JS Function die die RÃ¼ckgabe verarbeiten soll bekommt die RÃ¼ckgabe"
 * @param String o. Array "Ein oder mehrere Key - Value Paare"
 * @access  public
 */
