@@ -16,7 +16,7 @@ function fehlerBehandung () {
 		if ($was == "editSwear")        $buffer .= 'Beim Editieren des Wortfilters ist ein Fehler aufgetreten';
 		if ($was == "deleteSwear")      $buffer .= 'Beim L&ouml;schen des Wortfilters ist ein Fehler aufgetreten';
 		if ($was == "deleteCommand")    $buffer .= 'Beim L&ouml;schen des Kommandos ist ein Fehler aufgetreten';
-		if ($was == "newCommand")		$buffer .= 'Beim Erstellen des Kommandos ist ein Fehler aufgetreten';
+		if ($was == "newCommand")       $buffer .= 'Beim Erstellen des Kommandos ist ein Fehler aufgetreten';
 		if ($was == "editCommand")      $buffer .= 'Beim Editieren des Kommandos ist ein Fehler aufgetreten';
 		$buffer .= '</div>';
 		echo $buffer;
